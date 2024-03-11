@@ -1,0 +1,27 @@
+:root {
+    /*Primary*/
+    --green: hsl(75, 94%, 57%);
+    
+    /*Neutral*/
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkgrey: hsl(0, 0%, 12%);
+    --offblack: hsl(0, 0%, 8%);
+    
+    /*Typography*/
+    --tsh1: 24px;
+    --tsh2: 22px;
+    --tsh3: 20px;
+    --tsp: 14px;
+
+    --fontinter: font-family: "Inter", Times, serif;
+
+    --fontw1: 600;
+    --fontw-2: 700;
+    --fontw-3: 800;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
