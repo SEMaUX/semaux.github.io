@@ -21,6 +21,8 @@
     --fontw-3: 800;
   }
 
+  p {font-family: var(--fontinter);}
+
   @font-face {
     font-family: "Inter";
     src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
