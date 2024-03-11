@@ -14,14 +14,16 @@
     --tsh3: 20px;
     --tsp: 14px;
 
-    --fontinter: font-family: "Inter", Times, serif;
+    --fontinter: "Inter", Helvetica, sans-serif;
 
     --fontw1: 600;
-    --fontw-2: 700;
-    --fontw-3: 800;
+    --fontw2: 700;
+    --fontw3: 800;
   }
 
-  p {font-family: var(--fontinter);}
+  h1, p {font-family: var(--fontinter);}
+  h1 {font-weight: var(--fontw2); font-size: var(--tsh1);}
+  p {font-weight: var(--fontw1); font-size: var(--tsp);}
 
   @font-face {
     font-family: "Inter";
